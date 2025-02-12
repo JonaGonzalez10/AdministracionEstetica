@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/styles/login.css">
+    <title>Login</title>
+</head>
+<body>
+<h2>Login</h2>
+<form action="/login" method="post">
+    <div class="user-img">
+        <img src="/static/img/usuario.png" alt="user">
+    </div>
+    <div>
+        <label for="email">Email o Usuario</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+    <div class="logo-img">
+        <img src="/static/img/loginF.jpg"alt="logo-img">
+    </div>
+</form>
+
+<h2>Agregar Usuario</h2>
+<form action="/addUser" method="post">
+    <div>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required>
+    </div>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div>
+        <label for="apellidoP">Apellido Paterno:</label>
+        <input type="text" id="apellidoP" name="apellidoP" required>
+    </div>
+    <div>
+        <label for="apellidoM">Apellido Materno:</label>
+        <input type="text" id="apellidoM" name="apellidoM" required>
+    </div>
+    <div>
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="emailR" name="email" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="passwordR" name="password" required>
+    </div>
+    <div>
+        <button type="submit">Agregar Usuario</button>
+    </div>
+
+</form>
+
+
+
+</body>
+</html>
