@@ -1,21 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #a692cc;
+    height: 100vh;
+    background-image: url("static/img/loginF.jpg");
+}
+
+.left-section, .right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.left-section {
+    background-color: #3c52f1;
+}
+
+.right-section {
+    background-color: rgba(241, 12, 12, 0.2);
 }
 
 form {
-    width: 45%;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h2 {
     text-align: center;
+    color: #4CAF50;
 }
 
 form div {
@@ -36,28 +61,31 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgba(84, 27, 223, 0.2);
+    background-color: #45a049;
 }
 
 .user-img {
     text-align: center;
     margin-bottom: 15px;
 }
+
 .user-img img {
     width: 100px;
     border-radius: 50%;
 }
+
 .logo-img {
     text-align: center;
     margin-bottom: 15px;
 }
+
 .logo-img img {
     width: 400px;
     height: auto;
